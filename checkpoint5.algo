@@ -1,0 +1,17 @@
+ALGORITHM sentence 
+VAR
+ nbr-v , nbr-m , l : INTEGER : = 0
+c: char 
+str :string :=""
+BEGIN
+while (c<>".")then 
+Write ("donner un caractere")
+Read(c)
+l=l+1
+str=str+confirm(c=" ") then
+nbr-m= nbr-m +1
+else if (c ="a" or c="o" or c="u" or c="i" or c="e" or c="A" or c="U" or c="O" or c="E" or c="I") then
+nbr-v = nbr-v +1
+END 
+END
+Write("la phrase saisie est " str)
